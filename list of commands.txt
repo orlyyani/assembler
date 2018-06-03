@@ -1,0 +1,17 @@
+Forward
+LeftTurn
+RightTurn
+HasValue(2)
+GoTo(6)
+IsZeroGoTo(2, 3)
+NotZeroGoTo(2, 6)
+GTZeroGoTo(2, 5)
+LTZeroGoTo(2, 2)
+GTEZeroGoTo(2, 7)
+LTEZeroGoTo(2, 10)
+Add(1, 2, 3)
+Sub(1, 2, 3)
+Mult(1, 2, 3)
+ReadMem(2, 1)
+WriteMem(2, 1)
+SetReg(2, 2)

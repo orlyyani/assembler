@@ -1,0 +1,8 @@
+SetReg(2,2)
+RightTurn
+Forward
+HasValue(1)
+Sub(1, 2, 3)
+LTZeroGoTo(3,2)
+IsZeroGoTo(3,1)
+GTZeroGoTo(3,2)
